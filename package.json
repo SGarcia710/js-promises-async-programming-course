@@ -1,0 +1,21 @@
+{
+  "name": "js-promises-async-programming-course",
+  "version": "1.0.0",
+  "description": "Source code for the Pluralsight course JavaScript Promises and Async Programming",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "secondary": "cross-env PORT=3001 nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SGarcia710/js-promises-async-programming-course.git"
+  },
+  "author": "Sebastián García ( @SGarcia710 )",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "6.0.3",
+    "express": "4.17.1",
+    "json-server": "0.15.1"
+  }
+}
